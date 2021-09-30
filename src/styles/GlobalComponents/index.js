@@ -248,7 +248,7 @@ export const ButtonBack = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     
     
-    margin: ${({ alt, form }) => (alt || form) ? '0' : '20px 0 30px 30px'};
+    margin: ${({ alt, form }) => (alt || form) ? '0' : '20px 0 30px 32px'};
     font-size: ${({ alt }) => alt ? '20px' : '24px'};
     font-weight: 600;
     width: ${({ alt }) => alt ? '150px' : '262px'};
