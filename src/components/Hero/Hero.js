@@ -23,60 +23,6 @@ import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
 
 
-/*
-
-function MyVerticallyCenteredModal(props) {
-  return (
-    <Modal
-    className={styles.modal}
-
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          Modal heading
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body     className={styles.modal}
->
-    
-
-        <h4>Centered Modal</h4>
-        <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p>
-        {projects.map(({image}) => (
-        <img src={image}/> 
-     ))}
-      </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
-    
-
-    
-    
-  
-
-    </Modal>
-  );
-}
-*/
-
-/*
-const pdfGenerate=()=>{
-  var doc=new jsPDF('landscape' , 'px', 'a4','false');
-  doc.addImage(pic,'PNG', 65,20,500,400)
-  doc.addPage()
-  doc.text(120,140, 'Name')
-  doc.save('a.pdf')
-}
-*/
 
 
 
@@ -88,10 +34,6 @@ function Hero (props)
  return(
   
   <> 
-  
-
-
-
 
 
     <Section row nopadding>

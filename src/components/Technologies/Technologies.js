@@ -6,10 +6,9 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 const Technologies = () =>  (
   <Section id="tech">
         
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Technological Knowledge</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+    I've worked with a range of Technologies for app design , app development and, app deployment.
     </SectionText>
     <List>
     <ListItem>
@@ -21,7 +20,7 @@ const Technologies = () =>  (
           <ListParagraph>
             Experience with <br />
             Node and Databases and API 
-            Development
+            Development(HTTP request and response handling).  
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -33,7 +32,8 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Development with <br />
-            React.js, Next.js, Redux.js, and Componenet Development
+            React.js, Next.js, Redux.js, and Componenet Development.
+            Flutter SDK, dart language and components.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -45,7 +45,7 @@ const Technologies = () =>  (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            tools like Figma.
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -228,7 +228,7 @@ export const ButtonBack = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: ${({ alt, form }) => (alt || form) ? '0' : '10px 0 40px 110px'};
+  margin: ${({ alt, form }) => (alt || form) ? '0' : '20px 0 30px 115px'};
   color: #fff;
   background: ${({ alt }) => alt ? 'linear-gradient(#9198e5,#000);' : 'linear-gradient( #9198e5, #000);'};
   
@@ -248,7 +248,7 @@ export const ButtonBack = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     
     
-    margin: ${({ alt, form }) => (alt || form) ? '0' : '10px 0 40px 40px'};
+    margin: ${({ alt, form }) => (alt || form) ? '0' : '20px 0 30px 30px'};
     font-size: ${({ alt }) => alt ? '20px' : '24px'};
     font-weight: 600;
     width: ${({ alt }) => alt ? '150px' : '262px'};
